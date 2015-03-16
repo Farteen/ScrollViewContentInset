@@ -15,6 +15,7 @@
 		C3F4D3861AB6766500B3EE36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F4D3851AB6766500B3EE36 /* Images.xcassets */; };
 		C3F4D3891AB6766500B3EE36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3F4D3871AB6766500B3EE36 /* LaunchScreen.xib */; };
 		C3F4D3951AB6766500B3EE36 /* TabbarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F4D3941AB6766500B3EE36 /* TabbarTestTests.m */; };
+		C3F4D3A01AB6769500B3EE36 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F4D39F1AB6769500B3EE36 /* TabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		C3F4D38E1AB6766500B3EE36 /* TabbarTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F4D3931AB6766500B3EE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3F4D3941AB6766500B3EE36 /* TabbarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarTestTests.m; sourceTree = "<group>"; };
+		C3F4D39E1AB6769500B3EE36 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		C3F4D39F1AB6769500B3EE36 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				C3F4D37D1AB6766500B3EE36 /* FirstViewController.m */,
 				C3F4D37F1AB6766500B3EE36 /* SecondViewController.h */,
 				C3F4D3801AB6766500B3EE36 /* SecondViewController.m */,
+				C3F4D39E1AB6769500B3EE36 /* TabBarViewController.h */,
+				C3F4D39F1AB6769500B3EE36 /* TabBarViewController.m */,
 				C3F4D3821AB6766500B3EE36 /* Main.storyboard */,
 				C3F4D3851AB6766500B3EE36 /* Images.xcassets */,
 				C3F4D3871AB6766500B3EE36 /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F4D3A01AB6769500B3EE36 /* TabBarViewController.m in Sources */,
 				C3F4D3811AB6766500B3EE36 /* SecondViewController.m in Sources */,
 				C3F4D37B1AB6766500B3EE36 /* AppDelegate.m in Sources */,
 				C3F4D37E1AB6766500B3EE36 /* FirstViewController.m in Sources */,
